@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- BEGIN TRACKJS -->
+    <script type="text/javascript">
+      window._trackJs = {
+        token: "<%=htmlWebpackPlugin.options.trackJSToken%>",
+      };
+    </script>
+    <script
+      type="text/javascript"
+      src="https://cdn.trackjs.com/releases/current/track.js"
+    ></script>
+    <!-- END TRACKJS -->
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>Users</h1>
+    <table>
+      <thead>
+        <th>&nbsp;</th>
+        <th>id</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+      </thead>
+      <tbody id="users"></tbody>
+    </table>
+    <!-- <script src="bundle.js"></script> -->
+  </body>
+</html>
